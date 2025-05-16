@@ -6,6 +6,13 @@
 *.test
 *.out
 *.a
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+**/*.test
+**/*.out
+**/*.a
 
 # Output folders
 /bin/
@@ -52,7 +59,7 @@ $RECYCLE.BIN/
 *.orig
 
 # Logs and debug files
-*.log
+**/*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
