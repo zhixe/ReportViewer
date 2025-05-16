@@ -1,0 +1,57 @@
+# Binaries and build output
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.a
+
+# Output folders
+/bin/
+/build/
+/dist/
+/release/
+
+# Vendor dependencies (if not committing them)
+vendor/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Env/config
+.env
+**/.env
+.env.*        # for .env.dev, .env.local, etc.
+**/.env.*
+
+# Coverage profiles
+*.coverprofile
+coverage.out
+
+# Dependency caches (Go Modules, for example)
+.gocache/
+.gomodcache/
+
+# Test/benchmark output
+bench.out
+
+# Frontend (if in monorepo)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Misc
+*.orig
